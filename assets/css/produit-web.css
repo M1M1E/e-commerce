@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@media screen and (min-width: 780px) {
+  body .back header {
+    height: auto;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .back header .logo {
+    width: 200px !important;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  body .back header .menu {
+    color: #6f4c5b;
+  }
+  body .back header .menu svg {
+    display: none;
+  }
+  body .back header .menu ul {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    gap: 30px;
+  }
+  body .back header .menu ul li {
+    list-style-type: none;
+    margin-top: 50px;
+  }
+  body .back header .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+    gap: 20px;
+  }
+  body .back header .logos .search, body .back header .logos .user, body .back header .logos .basket {
+    width: 30px;
+  }
+  body .back .globalProduct {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  body .back .globalProduct .title {
+    display: block;
+    margin-top: 200px;
+  }
+  body .back .globalProduct .title h1, body .back .globalProduct .title span {
+    font-size: 30px;
+  }
+  body .back .globalProduct .title #buttons {
+    margin-top: 20px;
+  }
+  body .back .description h2 {
+    text-align: left;
+    font-size: 30px;
+  }
+  body .back .maintenance h4 {
+    text-align: left;
+    font-size: 20px;
+  }
+  body .back .finalDescription h4 {
+    text-align: left;
+  }
+  body .back .line {
+    width: 100%;
+  }
+  body .back .detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 50px;
+  }
+  body footer {
+    padding-left: 20px;
+  }
+  body footer .End {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+  body footer h2 {
+    text-align: left !important;
+  }
+}
+/*# sourceMappingURL=produit-web.css.map */

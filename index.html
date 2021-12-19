@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-tablet.css">
+    <link rel="stylesheet" href="assets/css/style-desktop.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="assets/js/index.js" defer></script>
+    <script src="assets/js/panier.js" defer></script>
+    <title>Böráruk</title>
+</head>
+
+<body>
+    <div class="back">
+        <header>
+            <img class="logo" src="assets/images/Boraruk.png" alt="logo commerce">
+            <div class="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="burger" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <ul>
+                    <a href="">
+                        <li>Accueil</li>
+                    </a>
+                    <a href="">
+                        <li>À propos</li>
+                    </a>
+                    <a href="">
+                        <li>Pages</li>
+                    </a>
+                    <a href="">
+                        <li>Boutique</li>
+                    </a>
+                    <a href="">
+                        <li>Compte</li>
+                    </a>
+                    <a href="">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+
+            </div>
+            <div class="logos">
+                <img class="search" src="assets/icons/search.png" alt="logo loupe">
+                <img class="basket" src="assets/icons/panier.png" alt="logo panier">
+                <img class="user" src="assets/icons/user.png" alt="logo utilisateur">
+            </div>
+        </header>
+       
+        <div class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/sac-bordeau.png" class="d-block w-100" alt="piano" />
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/bleu-chine.png" class="d-block w-100" alt="batterie" />
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/sac-bois.png" class="d-block w-100" alt="table de mixage" />
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/fleurs.png" class="d-block w-100" alt="enceintes" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="promo">
+            <div class="first">
+                <a href="panier.html"><img class="portefeuille" src="assets/images/portefeuille-naturel.png"
+                        alt="portefeuille">
+                    <p>Promotion</p>
+                    <div class="overlay">
+                        20.00 €
+                        <span>40.00 €</span>
+                    </div>
+                </a>
+            </div>
+            <div class="two">
+                <a href="panier.html"><img class="cabas" src="assets/images/sac-main-liege.png" alt="sac à main liège">
+                    <p class="p-two">Promotion</p>
+                    <div class="overlay">
+                        40.00 €
+                        <span>70.00 €</span>
+                    </div>
+                </a>
+            </div>
+            <div class="belts">
+                <a href="panier.html"><img class="belt" src="assets/images/ceintures-triple.png" alt="triple ceinture">
+                    <p>Promotion</p>
+                    <div class="overlay">
+                        14.50 €
+                        <span>23.50 €</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <h2 class="new">Nouvelles arrivées</h2>
+        <div class="news">
+            <div class="novellas">
+                <a href="#"><img class="bananeBlue" src="assets/images/banane-bleu.png" alt="sac banane bleu">
+                </a>
+                <div class="decision">
+                    <a href="panier.html"><img class="panier" src="assets/icons/panier.png" alt="panier d'achat"></a>
+                    <a href="#"><img class="heart" src="assets/icons/heart.png" alt="icone favori"></a>
+                </div>
+                <div class="textDescriptif">
+                    <h3>Sac Banane</h3>
+                    <p class="matiere">Liège</p>
+                    <p class="price"> 128.50 €</p>
+                </div>
+            </div>
+            <div class="novellas">
+                <a href="#"><img class="node" src="assets/images/Noeud_papillon.png" alt="noeud Noeud_papillon">
+                </a>
+                <div class="decision">
+                    <a href="panier.html"><img class="panier" src="assets/icons/panier.png" alt="panier d'achat"></a>
+                    <a href="#"><img class="heart" src="assets/icons/heart.png" alt="icone favori"></a>
+                </div>
+                <div class="textDescriptif">
+                    <h3>Noeud papillon</h3>
+                    <p class="matiere">Liège</p>
+                    <p class="price"> 35.00 €</p>
+                </div>
+            </div>
+            <div class="novellas">
+                <a href="#"><img class="coin" src="assets/images/monnaie-liege.png" alt="petit porte-monnaie">
+                </a>
+                <div class="decision">
+                    <a href="panier.html"><img class="panier" src="assets/icons/panier.png" alt="panier d'achat"></a>
+                    <a href="#"><img class="heart" src="assets/icons/heart.png" alt="icone favori"></a>
+                </div>
+                <div class="textDescriptif">
+                    <h3>Porte-monnaie</h3>
+                    <p class="matiere">Liège</p>
+                    <p class="price"> 19.95 €</p>
+                </div>
+            </div>
+            <div class="novellas">
+                <a href="#"><img class="beltMaroon" src="assets/images/ceinture-marron.png" alt="ceinture marron">
+                </a>
+                <div class="decision">
+                    <a href="panier.html"><img class="panier" src="assets/icons/panier.png" alt="panier d'achat"></a>
+                    <a href="#"><img class="heart" src="assets/icons/heart.png" alt="icone favori"></a>
+                </div>
+                <div class="textDescriptif">
+                    <h3>Ceinture marron</h3>
+                    <p class="matiere">Chêne et liège</p>
+                    <p class="price"> 89.00 €</p>
+                </div>
+            </div>
+            <div class="novellas">
+                <a href="#"><img class="sacoche" src="assets/images/sacoche-marron.png" alt="sacoche marron">
+                </a>
+                <div class="decision">
+                    <a href="panier.html"><img class="panier" src="assets/icons/panier.png" alt="panier d'achat"></a>
+                    <a href="#"><img class="heart" src="assets/icons/heart.png" alt="icone favori"></a>
+                </div>
+                <div class="textDescriptif">
+                    <h3>Sacoche marron</h3>
+                    <p class="matiere">Chêne et liège</p>
+                    <p class="price"> 395.00 €</p>
+                </div>
+            </div>
+            <div class="novellas">
+                <a href="#"><img class="mango" src="assets/images/mangue.png" alt="bracelet cuir de mangue">
+                </a>
+                <div class="decision">
+                    <a href="panier.html"><img class="panier" src="assets/icons/panier.png" alt="panier d'achat"></a>
+                    <a href="#"><img class="heart" src="assets/icons/heart.png" alt="icone favori"></a>
+                </div>
+                <div class="textDescriptif">
+                    <h3>Bracelet</h3>
+                    <p class="matiere">Mangue</p>
+                    <p class="price"> 40.00 €</p>
+                </div>
+            </div>
+            <div class="novellas">
+                <a href="#"><img class="card" src="assets/images/porte-carte.png" alt="porte-carte">
+                </a>
+                <div class="decision">
+                    <a href="panier.html"><img class="panier" src="assets/icons/panier.png" alt="panier d'achat"></a>
+                    <a href="#"><img class="heart" src="assets/icons/heart.png" alt="icone favori"></a>
+                </div>
+                <div class="textDescriptif">
+                    <h3>Porte-cartes</h3>
+                    <p class="matiere">Liège</p>
+                    <p class="price"> 15.00 €</p>
+                </div>
+            </div>
+            <div class="novellas">
+                <a href="#"><img class="homme" src="assets/images/bandouliere.png" alt="sac bandoulière">
+                </a>
+                <div class="decision">
+                    <a href="panier.html"><img class="panier" src="assets/icons/panier.png" alt="panier d'achat"></a>
+                    <a href="#"><img class="heart" src="assets/icons/heart.png" alt="icone favori"></a>
+                </div>
+                <div class="textDescriptif">
+                    <h3>Sac bandoulière</h3>
+                    <p class="matiere">Liège</p>
+                    <p class="price"> 75.00 €</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="separate">
+            <img class="separ" src="assets/images/séparation.jpg" alt="graines de lin + rouleaux de liège">
+        </div>
+        <div class="matieres">
+            <img class="matiere" src="assets/images/séparation liège.png" alt="matières utilisées">
+            <img class="matiereWeb" src="assets/images/séparation liège-2.png" alt="matière utilisées">
+        </div>
+
+        <div class="container">
+
+            <div class="best">
+                <h2 class="bestOf">Meilleures ventes</h2>
+
+                <div class="image">
+                    <a href="panier.html"><img class="case" src="assets/images/lunettes.png" alt="étui à lunettes"></a>
+                </div>
+                <div class="text">
+                    <p>Étui à lunettes</p>
+                    <span>13.90 €</span>
+                </div>
+                <div class="image">
+                    <a href="panier.html"><img class="nodeLittle" src="assets/images/Noeud_papillon.png"
+                            alt="noeud papillon"></a>
+                </div>
+                <div class="text">
+                    <p>Noeud papillon</p>
+                    <span>35.00 €</span>
+                </div>
+                <div class="image">
+                    <a href="panier.html"><img class="kit" src="assets/images/trousse.png" alt="trousse"></a>
+                </div>
+                <div class="text">
+                    <p>Trousse</p>
+                    <span>11.90 €</span>
+                </div>
+                <div class="image">
+                    <a href="panier.html"><img class="bag" src="assets/images/ordi.png" alt="Sacoche ordinateur"></a>
+                </div>
+                <div class="text">
+                    <p>Sacoche ordinateur</p>
+                    <span>180.00 €</span>
+                </div>
+                <div class="image">
+                    <a href="panier.html"><img class="pocket" src="assets/images/pochette.png"
+                            alt="pochette noir et fleurie"></a>
+                </div>
+                <div class="text">
+                    <p>Pochette</p>
+                    <span>14.90 €</span>
+                </div>
+            </div>
+
+            <div class="newProduct">
+                <h2 class="area">Nouvelles arrivées</h2>
+                <div class="image">
+                    <a href="panier.html"><img class="redBag" src="assets/images/liege-rouge.png"
+                            alt="cabas femme rouge"></a>
+                </div>
+                <div class="text">
+                    <p>Sac cabas</p>
+                    <span>90.00 €</span>
+                </div>
+                <div class="image">
+                    <a href="panier.html"><img class="set" src="assets/images/ensemble.png"
+                            alt="ensemble sac, sacoche ordinateur et pochette"></a>
+                </div>
+                <div class="text">
+                    <p>Ensemble sac à dos, pochette pour ordinateur et pochette</p>
+                    <span> 150.00 €</span>
+                </div>
+                <div class="image">
+                    <a href="panier.html"><img class="hat" src="assets/images/beret.png" alt="béret en liège"></a>
+                </div>
+                <div class="text">
+                    <p>Béret</p>
+                    <span> 50.00 €</span>
+                </div>
+                <div class="image">
+                    <a href="panier.html"><img class="woodBag" src="assets/images/sac-bois.png"
+                            alt="sac style cartable en bois et liège"></a>
+                </div>
+                <div class="text">
+                    <p>Sac type cartable</p>
+                    <span> 320.00 €</span>
+                </div>
+                <div class="image">
+                    <a href="panier.html"><img class="wallet" src="assets/images/porte-monnaie-ocre.png"
+                            alt="porte monnaie couleur ocre"></a>
+                </div>
+                <div class="text">
+                    <p>Porte monnaie</p>
+                    <span> 16.00 €</span>
+                </div>
+            </div>
+        </div>
+        <div class="line">
+            <img class="line" src="assets/images/trait séparation.png" alt="trait de séparation">
+        </div>
+
+        <div class="detail">
+            <div class="details">
+                <img class="delivery" src="assets/icons/free.png" alt="logo livraison">
+                <div class="text">
+                    <p>Livraison gratuite</p>
+                    <p>À partir de 120€ d'achat</p>
+                </div>
+            </div>
+            <div class="details">
+                <img class="delivery" src="assets/icons/return.png" alt="logo retour article">
+                <div class="text">
+                    <p>Retour sous 30 jours</p>
+                    <p>Selon politique de retour</p>
+                </div>
+            </div>
+            <div class="details">
+                <img class="delivery" src="assets/icons/card-pay.png" alt="logo paiement sécurisé">
+                <div class="text">
+                    <p>Paiement sécurisé</p>
+                    <p>3D secure</p>
+                </div>
+            </div>
+            <div class="details">
+                <img class="delivery" src="assets/icons/call-center.png" alt="logo service client">
+                <div class="text">
+                    <p>Support 24/7</p>
+                    <p>Par tchat et télephone</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="End">
+            <div class="society">
+                <h2>Böráruk</h2>
+                <p>Maroquinerie entièrement réalisée à partir de produits naturels, comme le liège ou le
+                    bois,fabrication
+                    française dans nos propres ateliers. </p>
+            </div>
+            <div class="category">
+                <div class="make">
+                    <h3>Catégories</h3>
+                    <ul>
+                        <li><a href="">Hommes</a></li>
+                        <li><a href="">Femmes</a></li>
+                        <li><a href="">Accessoires</a></li>
+                        <li><a href="">Idées cadeaux</a></li>
+                </div>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Liens</h3>
+                <ul>
+                    <li><a href="">News</a></li>
+                    <li><a href="">À propos...</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Boutique</a></li>
+                    <li><a href="">Nous contacter</a></li>
+                </ul>
+            </div>
+            <div class="hours">
+                <h3>Horaires</h3>
+                <p>Lundi au vendredi de 8h à 20h</p>
+                <p>Samedi de 10h à 20h</p>
+                <p>Dimanche de 12h à 20h</p>
+            </div>
+        </div>
+        <div class="phone">
+            <h2>Appelez nous au 555-5496</h2>
+        </div>
+    </footer>
+
+    <div class="end">
+        <p>&copy Copyright 2021</p>
+        <a href="">Politique de confidentialité</a>
+        <a href="">Conditions Générales de vente</a>
+    </div>
+
+</body>
+
+</html>

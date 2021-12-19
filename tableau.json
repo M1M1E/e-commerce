@@ -1,0 +1,163 @@
+[
+    {
+        "id" : 1,
+        "name" : "sac bordeau",
+        "price" : 160.00 , 
+        "image" : "assets/images/sac-bordeau.png",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id" : 2,
+        "name" : "sac bleu",
+        "price" : 320.00 ,
+        "image" : "assets/images/sac-bois.png",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id" : 3,
+        "name" : "sac bleu chiné",
+        "price" : 285.00 ,
+        "image" : "assets/images/bleu-chine.png",
+        "description" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id" : 4, 
+        "name" :"portefeuille naturel",
+        "price" : 20.00, 
+        "image" : "assets/images/portefeuille-naturel.png",
+        "description" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id" : 5,
+        "name" : "cabas liège",
+        "price" : 40.00 ,
+        "image" : "assets/images/sac-main-liege.png",
+        "description" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 6,
+        "name" : "ceinture liège",
+        "price" : 14.50 , 
+        "image" : "assets/images/ceintures-triple.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 6,
+        "name" : "sac banane bleu",
+        "price" : 128.50,
+        "image"  : "assets/images/banane-bleu.png",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    { 
+        "id": 7,
+        "name": "Noeud papillon",
+        "price" : 35.00, 
+        "image" : "assets/images/Noeud_papillon.png",
+        "description" :"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 8, 
+        "name" : "porte-monnaie liège",
+        "price": 19.95,
+        "image" : "assets/images/monnaie-liege.png",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 9,
+        "name": "ceinture marron",
+        "price": 89.00,
+        "image" :"assets/images/ceinture-marron.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 10,
+        "name" : "sacoche marron",
+        "price" : 395.00,
+        "image" : "assets/images/sacoche-marron.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 11,
+        "name": "bracelet cuir de mangue",
+        "price": 40.00,
+        "image": "assets/images/mangue.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id":12,
+        "name": "porte carte",
+        "price": 15.00,
+        "image" : "assets/images/porte-carte.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 13,
+        "name": "sac bandoulière",
+        "price" : 75.00,
+        "image":"assets/images/bandouliere.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 14,
+        "name": "étui à lunettes",
+        "price": 13.90,
+        "image":"assets/images/lunettes.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 15,
+        "name": "trousse",
+        "price": 11.90,
+        "image": "assets/images/trousse.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 16,
+        "name": "sacoche pour ordinateur",
+        "price":180.00,
+        "image":"assets/images/ordi.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 17,
+        "name":"petite pochette fleurie",
+        "price" : 14.90,
+        "image":"assets/images/pochette.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 18,
+        "name":"sac cabas liège rouge",
+        "price" : 90.00,
+        "image":"assets/images/liege-rouge.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 19,
+        "name": " ensemble sac, sacoche ordinateur et pochette",
+        "price": 150.00,
+        "image":"assets/images/ensemble.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 20,
+        "name": "béret",
+        "price":50.00,
+        "image" : "assets/images/beret.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id" : 21,
+        "name" : "sac style cartable",
+        "price": 320.00,
+        "image" : "assets/images/sac-bois.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    },
+    {
+        "id": 22,
+        "name": "porte-monnaie ocre",
+        "price" :16.00,
+        "image" :"assets/images/porte-monnaie-ocre.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. "
+    }
+]

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import "variables";
+
+@media screen and (min-width : 780px) and (max-width : 1023px){
+
+body{
+    .back{
+        .logo{
+            width: 220px!important;
+            height: 100px;
+           margin-top: 17px!important;
+        }
+        .menu{
+            svg{
+                margin-left: 480px!important;
+                margin-bottom: 40px!important;
+                width: 55px!important;
+            }
+        }
+        
+        .d-block{
+            height: 50vh!important;
+        }
+        .promo{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            
+        }
+    }
+
+   .new{
+       text-align: center;
+   }
+    .news{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .separate{
+        .separ{
+            margin-top: 50px!important;
+            height: 25vh;
+        }
+    }
+
+    .matieres{
+        margin-top: 120px;
+    }
+
+    .container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     align-items: center;
+     justify-content: center;
+    }
+   
+
+    .line{
+        width: 100%;
+    }
+
+   .detail{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+   }
+
+   footer{
+       .End{
+        .society{
+            margin-left: 20px;
+            text-align: start;
+            width: 50%;
+         p{
+             margin-left: 0;
+         }
+        }
+   }
+       
+
+       .category, .link, .hours{
+        width: 32%;
+        display: inline grid;
+        h3{
+            margin-bottom: 0;
+        }
+        .make{
+            margin-left: 20px;
+            li{
+                text-align: start;
+            }
+        }
+            p{
+                width: 100%;
+                line-height: 5px;
+            }
+       }
+
+       h2{
+           margin-left: 20px!important;
+           text-align: left!important;
+       }
+   }
+   .end{
+       padding-bottom: 10px;
+       padding-left: 20px;
+        a:last-child{
+            margin-top: -26px;
+            margin-left: 300px;
+        }
+    }
+}
+
+}

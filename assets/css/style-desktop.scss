@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import "variables";
+
+@media screen and (min-width : 1024px){
+
+body{
+    .back{
+        header{
+            height: auto;
+            width: 100%;
+            justify-content: space-between;
+            .logo{
+                width: 200px!important;
+                height: 100px;
+                margin-bottom: 20px;
+            }
+            .menu{
+                color: $back;
+                svg{
+                    display: none;
+                }
+                    ul{
+                        align-items: center;
+                        justify-content: center;
+                        display: flex!important;
+                        gap: 30px;
+                        li{
+                            list-style-type: none;
+                            margin-top: 50px;
+                        }
+                    }
+            }
+            .logos{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                margin-right: 20px;
+                 .search, .user, .basket{
+                     width: 30px;
+                 }
+             }
+        }
+        
+       
+    }
+
+    .d-block{
+        height: 80vh!important;
+    }
+
+    .promo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    h2{
+        text-align: center;
+        font-size: 50px!important;
+    }
+
+    .news{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .separate{
+        margin-top: 200px!important;
+        .separ{
+            height: 60vh!important;
+        }
+    }
+
+    .matieres{
+        .matiere{
+           display: none;
+        }
+        .matiereWeb{
+            display: block!important;
+            margin-top: 450px;
+            margin-left: 20px;
+        }
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 30%;
+        margin-top: -270px;
+        height: auto;
+        h2{
+            font-size: 20px!important;
+            padding-bottom: 20px;
+        }
+    }
+
+    
+
+    .line{
+        width: 100%;
+    }
+
+    .detail{
+        display: flex;
+        padding: 50px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer{
+        padding-left: 20px;
+        .End{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        h2{
+            text-align: left !important;
+        }
+       
+    }
+        
+}
+    
+}

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import "variables";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    .back{
+        background-color: $back;
+        margin: 0;
+        padding: 0;
+        header{
+            background-color: $rond ;
+            height: 15vh;
+            margin: 0;
+            display: flex;
+            .logo{
+                width: 120px;
+                height: 100px;
+                margin-top : 10px;
+                margin-left: 20px;
+                border-radius: 10px;
+            }
+            .menu{
+                svg{
+                    width: 40px;
+                    margin-left: 180px;
+                    margin-top: 45px;
+                }
+                
+                    ul{
+                        display: none;
+                        a{
+                            text-decoration: none;
+                        }
+                        &.hidden{
+                            display: block;
+                            list-style-type: none;
+                            text-align: right;
+                            color: $text;
+                            background-color: $rond;
+                            width: 70px;
+                            margin-left: 57%;
+                            border-radius: 12px;
+                        }
+                    }
+            }
+            .logos{
+                display: none;
+            }
+            
+        }
+
+        .product{
+            margin: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $background-promo;
+            height: auto;
+            width: 80%;
+            border-radius: 12px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .title{
+            text-align: center;
+            h1{
+                color: $title;
+                font-size: 20px;
+            }
+            span{
+                padding-bottom: 10px;
+                color: $text;
+            }
+        }
+
+        .buttons{
+            margin-left: 50%;
+            transform: translate(-50%);
+        }
+        .add{
+            margin-top: 10px;
+            color: $promo;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .description{
+            margin: 0 20px 0 20px;
+            h2{
+                text-align: center;
+                color: $title;
+            }
+            p{
+                color: $text;
+            }
+            ul{
+                color: $text;
+                text-align: left;
+                list-style-type: disclosure-closed;
+            }
+        }
+
+        .maintenance{
+            margin: 0 20px 0 20px;
+            h4{
+                color: $title;
+                text-align: center;
+            }
+            p{
+                color: $text;
+            }
+        }
+
+        .finalDescription{
+            margin: 0 20px 0 20px;
+            h4{
+                color: $title;
+                text-align: center;
+            }
+            p{
+                color: $text;
+            }
+        }
+    }
+
+
+    .detail{
+        color: $text;
+        margin: 0 20px 0 20px;
+        .details{
+            display: flex;
+            margin-bottom: 0px;
+            img{
+                width: 100px;
+                height: 100px;
+                margin-right: 30px;
+                margin-bottom: 30px;
+            }
+        }
+      
+    }
+
+    footer{
+        margin: 0;
+        padding: 0;
+        background-color: $rond;
+      
+        .society{
+            text-align: center;
+            h2{
+               margin: 0;
+                color: $back;
+                font-size: 35px;
+            }
+            p{
+                color: $footerText;
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
+
+        .category{
+            .make{
+                margin-bottom: 50px;
+                h3{
+                   
+                    color: $back;
+                    font-size: 25px;
+                    text-align: center;
+                }
+                li{
+                    list-style-type: none;
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .link{
+            margin-bottom: 50px;
+            h3{
+                color: $back;
+                font-size: 25px;
+                text-align: center;
+            }
+            li{
+                list-style-type: none;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+        .hours{
+            text-align: center;
+            h3{
+                color: $back;
+                font-size: 25px;
+            }
+            p{
+                color: $footerText;
+            }
+        }
+
+        .phone{
+            color: $back;
+            text-align: center;
+            font-size: 17px;
+            h2{
+                margin: 0;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    .end{
+        padding-top: 15px;
+        height: auto;
+        background-color: $back;
+        color: $text;
+        p{
+            margin: 0;
+        }
+        a{
+            color: $text;
+            text-decoration: none;
+            display: block;
+            line-height: 25px;
+        }
+    }
+    .end{
+        padding-left: 20px;
+       }
+}
