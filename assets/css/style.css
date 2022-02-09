@@ -14,7 +14,7 @@ body .back {
 
 body .back header {
   background-color: #deba9d;
-  height: 15vh;
+  height: 10vh;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,17 +22,17 @@ body .back header {
 }
 
 body .back header .logo {
-  width: 120px;
-  height: 100px;
-  margin-top: 10px;
-  margin-left: 20px;
-  border-radius: 10px;
+  width: 25%;
+  height: 80%;
+  margin-top: 2%;
+  margin-left: 2%;
+  border-radius: 5px;
 }
 
 body .back header .menu svg {
-  width: 40px;
-  margin-left: 180px;
-  margin-top: 45px;
+  width: 10%;
+  margin-left: 85%;
+  margin-top: 4%;
 }
 
 body .back header .menu ul {
@@ -57,7 +57,6 @@ body .back header .logos {
 
 body .back .d-block {
   background-color: #e6ddc6;
-  height: 40vh;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -182,24 +181,25 @@ body .back h2 {
   color: #fdefef;
   font-weight: bold;
   font-size: 30px;
-  margin-left: 10%;
-  margin-top: 70px;
+  text-align: center;
+  margin-top: 25%;
+  padding-bottom: 10%;
 }
 
 body .back .news .novellas {
-  margin-top: 120px;
-  height: 40vh;
+  margin-bottom: 30%;
+  height: 35vh;
   width: 70%;
   background-color: #fef7dc;
   border-radius: 14px;
-  margin-left: 50%;
+  left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   display: block;
   position: relative;
 }
 
-body .back .news .novellas .bananeBlue {
+body .back .news .novellas .bananeBlue, body .back .news .novellas .node, body .back .news .novellas .coin, body .back .news .novellas .homme, body .back .news .novellas .beltMaroon, body .back .news .novellas .sacoche, body .back .news .novellas .mango, body .back .news .novellas .card {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -234,27 +234,6 @@ body .back .news .novellas .decision .panier, body .back .news .novellas .decisi
   background-color: #deba9d;
 }
 
-body .back .news .novellas .node, body .back .news .novellas .coin, body .back .news .novellas .homme {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-body .back .news .novellas .beltMaroon {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-body .back .news .novellas .sacoche, body .back .news .novellas .mango, body .back .news .novellas .card {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 body .back .news .novellas .textDescriptif {
   color: #fdefef;
   text-align: center;
@@ -279,6 +258,7 @@ body .back .separate .separ {
 body .back .matieres {
   width: 100%;
   height: 20vh;
+  padding-top: 5vh;
 }
 
 body .back .matieres .matiere {
@@ -306,7 +286,6 @@ body .back .container .best h2, body .back .container .newProduct h2 {
 body .back .container .best .image, body .back .container .newProduct .image {
   background-color: #fef7dc;
   border-radius: 12px;
-  height: 15vh;
   width: 40%;
   margin-bottom: 50px;
 }

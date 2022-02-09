@@ -5,29 +5,24 @@
 
 body{
     .back{
-        .logo{
-            width: 220px!important;
-            height: 100px;
-           margin-top: 17px!important;
-        }
-        .menu{
-            svg{
-                margin-left: 480px!important;
-                margin-bottom: 40px!important;
-                width: 55px!important;
+        header{
+        height: 15vh;
+            .logo{
+               width: 15%;
+            }
+            .menu{
+                svg{
+                width: 6%;
+                }
             }
         }
-        
-        .d-block{
-            height: 50vh!important;
-        }
+
         .promo{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             object-fit: cover;
             height: 100%;
             width: 100%;
-            
         }
     }
 
@@ -51,10 +46,11 @@ body{
     }
 
     .container{
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
-     align-items: center;
-     justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: start;
+   
     }
    
 

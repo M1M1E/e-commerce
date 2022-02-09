@@ -8,7 +8,7 @@
             justify-content: space-between;
   }
   body .back header .logo {
-    width: 200px !important;
+    width: 180px !important;
     height: 100px;
     margin-bottom: 20px;
   }
@@ -48,7 +48,7 @@
     width: 30px;
   }
   body .d-block {
-    height: 80vh !important;
+    height: 60% !important;
   }
   body .promo {
     display: -ms-grid;
