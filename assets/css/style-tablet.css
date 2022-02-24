@@ -5,6 +5,7 @@
   }
   body .back header .logo {
     width: 15%;
+    height: 70%;
   }
   body .back header .menu svg {
     width: 6%;
@@ -27,13 +28,6 @@
     display: grid;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-  }
-  body .separate .separ {
-    margin-top: 50px !important;
-    height: 25vh;
-  }
-  body .matieres {
-    margin-top: 120px;
   }
   body .container {
     display: -ms-grid;

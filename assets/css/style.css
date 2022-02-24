@@ -14,7 +14,6 @@ body .back {
 
 body .back header {
   background-color: #deba9d;
-  height: 10vh;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,19 +23,31 @@ body .back header {
 body .back header .logo {
   width: 25%;
   height: 80%;
-  margin-top: 2%;
-  margin-left: 2%;
+  margin: 2%;
   border-radius: 5px;
+}
+
+body .back header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .back header .menu svg {
   width: 10%;
   margin-left: 85%;
-  margin-top: 4%;
 }
 
 body .back header .menu ul {
   display: none;
+  position: absolute;
+  z-index: 10;
 }
 
 body .back header .menu ul a {
@@ -57,8 +68,8 @@ body .back header .logos {
 
 body .back .d-block {
   background-color: #e6ddc6;
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  height: 60%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -182,7 +193,7 @@ body .back h2 {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
-  margin-top: 25%;
+  margin-top: 15%;
   padding-bottom: 10%;
 }
 
@@ -244,14 +255,9 @@ body .back .news .novellas .textDescriptif h3 {
   font-size: 22px;
 }
 
-body .back .separate {
-  margin-top: 100px;
-  height: 20vh;
-  margin-bottom: 80px;
-}
-
 body .back .separate .separ {
   width: 100%;
+  height: 100%;
   margin: auto;
 }
 
@@ -290,7 +296,7 @@ body .back .container .best .image, body .back .container .newProduct .image {
   margin-bottom: 50px;
 }
 
-body .back .container .best .image img, body .back .container .newProduct .image img {
+body .back .container .best .image img, body .back .container .best .image .woodBack, body .back .container .newProduct .image img, body .back .container .newProduct .image .woodBack {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;

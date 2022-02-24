@@ -9,6 +9,7 @@ body{
         height: 15vh;
             .logo{
                width: 15%;
+               height: 70%;
             }
             .menu{
                 svg{
@@ -34,16 +35,16 @@ body{
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .separate{
-        .separ{
-            margin-top: 50px!important;
-            height: 25vh;
-        }
-    }
+    // .separate{
+    //     // .separ{
+    //     //     // margin-top: 50px!important;
+    //     //     // height: 50%!important;
+    //     // }
+    // }
 
-    .matieres{
-        margin-top: 120px;
-    }
+    // .matieres{
+    //     margin-top: 120px;
+    // }
 
     .container{
     display: grid;

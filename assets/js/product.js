@@ -10,7 +10,7 @@ const params = Object.fromEntries(urlSearchParams.entries());
 fetch('/tableau.json')
     .then(response => response.json())
     .then(products => {
-        //recupere le produit dans le tableaugrace à l'ID passé en parametre
+        //recupere le produit dans le tableau grace à l'ID passé en parametre
         // https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/find
         const product = products.find(product => product.id === parseInt(params.id));
 

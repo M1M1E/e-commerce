@@ -10,8 +10,8 @@ body{
             width: 100%;
             justify-content: space-between;
             .logo{
-                width: 180px!important;
-                height: 100px;
+                width: 120px!important;
+                // height: 100px;
                 margin-bottom: 20px;
             }
             .menu{
@@ -24,6 +24,7 @@ body{
                         justify-content: center;
                         display: flex!important;
                         gap: 30px;
+                        width: 70%;
                         li{
                             list-style-type: none;
                             margin-top: 50px;
@@ -76,24 +77,25 @@ body{
         }
         .matiereWeb{
             display: block!important;
-            margin-top: 450px;
-            margin-left: 20px;
+            width: 20%;
+            padding-top: 20%;
+            // margin-top: 450px;
+            // margin-left: 20px;
         }
     }
 
     .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 30%;
-        margin-top: -270px;
+        padding-left: 20%;
+        // margin-left: 30%;
+        // margin-top: -270px;
         height: auto;
         h2{
             font-size: 20px!important;
             padding-bottom: 20px;
         }
     }
-
-    
 
     .line{
         width: 100%;
